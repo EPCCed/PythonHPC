@@ -64,17 +64,29 @@ reference.</blockquote></p>
 for private study. </blockquote></p>
 
  * 09:00 - 09:10 : Introduction
- * 09:10 - 09:30 : Traffic model (lecture)
- * 09:30 - 09:45 : Traffic model (hands-on)
- * 09:45 - 10:10 : Introduction to numpy arrays (lecture)
- * 10:10 - 10:30 : Traffic model with numpy (hands-on)
- * 10:30 - 11:00 : Coffee break
- * 11:00 - 11:30 : Message-passing concepts (lecture)
+ * 09:10 - 09:30 : Traffic Model (lecture)
+ * 09:30 - 09:45 : Traffic Model (hands-on)
+ * 09:45 - 10:10 : Introduction to Numpy Arrays (lecture)
+ * 10:10 - 10:30 : Traffic Model with Numpy (hands-on)
+ * 10:30 - 11:00 : Coffee Break
+ * 11:00 - 11:30 : Message-Passing Concepts (lecture)
  * 11:30 - 11:45 : Log on to ARCHER2 (hands-on)
  * 11:45 - 12:10 : Basic MPI with mpi4py (lecture)
- * 12:10 - 12:30 : Parallel traffic model (hands-on)
+ * 12:10 - 12:30 : Parallel Traffic Model (hands-on)
 
 <h3>Lecture Material</h3>
+
+<h4>Traffic Model</h4>
+
+Based on this existing lecture:
+
+ * [https://media.ed.ac.uk/id/1_bi1jjb9w](https://media.ed.ac.uk/id/1_bi1jjb9w)
+
+<h4>Introduction to Numpy Arrays</h4>
+
+Based on this existing material:
+
+  * [https://youtu.be/_7lnaD_CfEI?t=6507](https://youtu.be/_7lnaD_CfEI?t=6507)
 
 <h4>Message-Passing Concepts</h4>
 
@@ -83,6 +95,14 @@ Based on these existing lectures:
  * [https://media.ed.ac.uk/id/0_c412efsc](https://media.ed.ac.uk/id/0_c412efsc)
  * [https://media.ed.ac.uk/id/0_lflgoo4i](https://media.ed.ac.uk/id/0_lflgoo4i)
  * [https://media.ed.ac.uk/id/0_fwdboeov](https://media.ed.ac.uk/id/0_fwdboeov)
+
+<h4>Basic MPI with mpi4py</h4>
+
+Based on this existing lecture but converted to Python (currently
+only covers C and Fortran - all routines are basically the same but
+have a more elegant syntax in Python)
+
+ * [https://media.ed.ac.uk/id/0_c21vap59](https://media.ed.ac.uk/id/0_c21vap59)
 
 ---
 
