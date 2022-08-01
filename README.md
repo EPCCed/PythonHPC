@@ -4,7 +4,7 @@ width="133" height="100">
 
 <br /><br /><br /><br /><br />
 
-# Make your Python code 10,000 times faster with parallel numpy!
+# Make your Python code 10,000 times faster with parallel numpy
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
