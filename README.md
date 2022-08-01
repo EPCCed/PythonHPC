@@ -80,9 +80,9 @@ for private study. </blockquote></p>
 
 Based on these existing lectures:
 
-  o [https://media.ed.ac.uk/id/0_c412efsc](https://media.ed.ac.uk/id/0_c412efsc)
-  o [https://media.ed.ac.uk/id/0_lflgoo4i](https://media.ed.ac.uk/id/0_lflgoo4i)
-  o [https://media.ed.ac.uk/id/0_fwdboeov](https://media.ed.ac.uk/id/0_fwdboeov)
+ * [https://media.ed.ac.uk/id/0_c412efsc](https://media.ed.ac.uk/id/0_c412efsc)
+ * [https://media.ed.ac.uk/id/0_lflgoo4i](https://media.ed.ac.uk/id/0_lflgoo4i)
+ * [https://media.ed.ac.uk/id/0_fwdboeov](https://media.ed.ac.uk/id/0_fwdboeov)
 
 ---
 
