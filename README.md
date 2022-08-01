@@ -38,6 +38,12 @@ their own code, full solutions will be provided for all exercises. The
 main aim is to illustrate the potential power of supercomputer systems
 to new users, and to demystify HPC and parallel programming.
 
+<h3>Requirements</h3>
+
+Participants must bring a laptop with a Mac, Linux, or Windows
+operating system (not a tablet, Chromebook, etc.) that they have
+administrative privileges on.
+
 <h3>Pre-requisites</h3>
 
 The course assumes a basic understanding of Python programming. You
@@ -45,19 +51,12 @@ will also need to be able to run a Jupyter notebook on your own laptop
 -- follow the installation instructions at
 [https://jupyter.org/install](https://jupyter.org/install).
 
-<h3>Requirements</h3>
+<h3>Timetable (all times are in BST)</h3>
 
-Participants must bring a laptop with a Mac, Linux, or Windows
-operating system (not a tablet, Chromebook, etc.) that they have
-administrative privileges on.
-
-They are also required to abide by the [ARCHER2 Code of Conduct](https://www.archer2.ac.uk/about/policies/code-of-conduct.html).
-
-<h3>Timetable (all times are in BST, GMT+1)</h3>
-
-<p><blockquote>This is still a draft course page and the material
-below comes from a previous run of this course. It will be updated for
-this run, but is made available here for reference.</blockquote></p>
+<p><blockquote>This is still a draft workshop page and the material
+below comes from previous courses on similar topics. It will be fully
+updated in time for this workshop, but is made available here for
+reference.</blockquote></p>
 
 <p><blockquote>Unless otherwise indicated all material is Copyright
 &copy; EPCC, The University of Edinburgh, and is only made available
