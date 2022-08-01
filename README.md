@@ -8,7 +8,7 @@ width="133" height="100">
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-<h3>David Henty, EPCC
+<h3>David Henty, EPCC.
 
 Wednesday 7th September 2022, 09:00 - 12:30 BST
 </h3>
@@ -66,37 +66,14 @@ for private study. </blockquote></p>
 
 <h4>Tuesday </h4>
 
- * 09:30 - 10:15 : <a href="https://github.com/EPCCed/archer2-parallelIO-2022-01-11/raw/main/slides/Parallel-IO-1.pdf">Challenges of Parallel IO</a>
- * 10:15 - 10:45 : <a href="https://github.com/EPCCed/archer2-parallelIO-2022-01-11/raw/main/slides/Parallel-IO-2.pdf">Lustre file system on ARCHER2</a>
- * 10:45 - 11:00 : Practical: Basic IO performance
- * 11:00 - 11:30 : Break
- * 11:30 - 12:00 : Practical: Basic IO performance (cont)
- * 12:00 - 12:45 : <a href="https://github.com/EPCCed/archer2-parallelIO-2022-01-11/raw/main/slides/Parallel-IO-3.pdf">Overview of MPI-IO</a>
- * 12:45 - 13:00 : Practical: MPI-IO performance
- * 13:00 - 14:00 : Lunch
- * 14:00 - 14:30 : <a href="https://github.com/EPCCed/archer2-parallelIO-2022-01-11/raw/main/slides/Parallel-IO-4.pdf">Configuring the Lustre filesystem</a>
- * 14:30 - 15:00 : Practical: MPI-IO performance (cont)
- * 15:00 - 15:30 : <a href="https://github.com/EPCCed/archer2-parallelIO-2022-01-11/raw/main/slides/Parallel-IO-5.pdf">Higher-level parallel IO libraries</a>
- * 15:30 - 16:00 : Break
- * 16:00 - 16:30 : Q&A / Finish exercises
- * 16:30         : CLOSE
-
-<h3>Exercise Material</h3>
-
-<p><blockquote>Unless otherwise indicated all material is Copyright
-&copy; EPCC, The University of Edinburgh, and is only made available
-for private study. </blockquote></p>
-
-Here is the <a href="https://github.com/EPCCed/archer2-parallelIO-2022-01-11/raw/main/exercises/benchio-archer2.pdf">parallel IO exercise sheet.</a>. As explained in the sheet, source code and instructions for the IO benchmark can be found at <a href="https://github.com/davidhenty/benchio">https://github.com/davidhenty/benchio/.</a>
-
----
-
-This work is licensed under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
-
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
-
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+ * 09:00 - 09:10 : Introduction
+ * 09:10 - 09:30 : Traffic model (lecture)
+ * 09:30 - 09:45 : Traffic model (hands-on)
+ * 09:45 - 10:10 : Introduction to numpy arrays (lecture)
+ * 10:10 - 10:30 : Traffic model with numpy (hands-on)
+ * 10:30 - 11:00 : Coffee break
+ * 11:00 - 11:30 : Message-passing concepts (lecture)
+ * 11:30 - 11:45 : Log on to ARCHER2 (hands-on)
+ * 11:45 - 12:10 : Basic MPI with mpi4py (lecture)
+ * 12:10 - 12:30 : Parallel traffic model (hands-on)
 
