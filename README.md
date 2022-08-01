@@ -8,8 +8,10 @@ width="133" height="100">
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-<h3>David Henty EPCC: Tuesday 23rd August 2022, 09:00 - 12:30 BST
-online</h3>
+<h3>David Henty, EPCC
+
+Wednesday 7th September 2022, 09:00 - 12:30 BST
+</h3>
 
 Python is widely used in scientific research for tasks such as data
 processing, analysis and visualisation. However, it is not yet widely
@@ -62,7 +64,7 @@ reference.</blockquote></p>
 &copy; EPCC, The University of Edinburgh, and is only made available
 for private study. </blockquote></p>
 
-<h4>Tuesday 11th January</h4>
+<h4>Tuesday </h4>
 
  * 09:30 - 10:15 : <a href="https://github.com/EPCCed/archer2-parallelIO-2022-01-11/raw/main/slides/Parallel-IO-1.pdf">Challenges of Parallel IO</a>
  * 10:15 - 10:45 : <a href="https://github.com/EPCCed/archer2-parallelIO-2022-01-11/raw/main/slides/Parallel-IO-2.pdf">Lustre file system on ARCHER2</a>
