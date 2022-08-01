@@ -104,6 +104,16 @@ have a more elegant syntax in Python)
 
  * [https://media.ed.ac.uk/id/0_c21vap59](https://media.ed.ac.uk/id/0_c21vap59)
 
+<h3>Exercise Material<h3>
+
+Sample solutions at:
+
+  * [https://github.com/EPCCed/EPCC-Exercises/tree/main/Traffic/Python](https://github.com/EPCCed/EPCC-Exercises/tree/main/Traffic/Python)
+
+Exercise sheet will be a modified and cut-down version of:
+
+  * [Exercises](exercises/ihpcss2022-exercises.pdf)
+
 ---
 
 This work is licensed under a
