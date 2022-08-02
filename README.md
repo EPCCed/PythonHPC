@@ -112,7 +112,7 @@ have a more elegant syntax in Python)
 
 Sample solutions at:
 
-  * [https://github.com/EPCCed/EPCC-Exercises/tree/main/Traffic/Python](https://github.com/EPCCed/EPCC-Exercises/tree/main/Traffic/)
+  * [https://github.com/EPCCed/EPCC-Exercises/tree/main/Traffic/](https://github.com/EPCCed/EPCC-Exercises/tree/main/Traffic/)
 
 We will concentrate on the Python solutions but C and Fortran versions
 are also supplied for performance comparison.
