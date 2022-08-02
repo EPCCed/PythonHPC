@@ -8,7 +8,7 @@ width="133" height="100">
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-<h3>David Henty, EPCC.
+<h3>David Henty, EPCC.<br />
 Wednesday 7th September 2022, 09:00 - 12:30 BST
 </h3>
 
@@ -51,6 +51,10 @@ The course assumes a basic understanding of Python programming. You
 will also need to be able to run a Jupyter notebook on your own laptop
 -- follow the installation instructions at
 [https://jupyter.org/install](https://jupyter.org/install).
+
+You will also need an account on the [UK national supercomputer
+ARCHER2](https://www.archer2.ac.uk/); full details of how to apply
+will be supplied in advance.
 
 <h3>Timetable (all times are in BST)</h3>
 
@@ -108,11 +112,17 @@ have a more elegant syntax in Python)
 
 Sample solutions at:
 
-  * [https://github.com/EPCCed/EPCC-Exercises/tree/main/Traffic/Python](https://github.com/EPCCed/EPCC-Exercises/tree/main/Traffic/Python)
+  * [https://github.com/EPCCed/EPCC-Exercises/tree/main/Traffic/Python](https://github.com/EPCCed/EPCC-Exercises/tree/main/Traffic/)
+
+We will concentrate on the Python solutions but C and Fortran versions
+are also supplied for performance comparison.
 
 Exercise sheet will be a modified and cut-down version of:
 
   * [Exercises](exercises/ihpcss2022-exercises.pdf)
+
+A much as possible, these exercises will be made available to
+attendees via a Jupyter notebook.
 
 ---
 
