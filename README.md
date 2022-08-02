@@ -108,7 +108,7 @@ have a more elegant syntax in Python)
 
  * [https://media.ed.ac.uk/id/0_c21vap59](https://media.ed.ac.uk/id/0_c21vap59)
 
-<h3>Exercise Material<h3>
+<h3>Exercise Material</h3>
 
 Sample solutions at:
 
