@@ -1,0 +1,16 @@
+#!/bin/bash --login
+
+#SBATCH --job-name mpi4py
+#SBATCH --nodes=1              # Request one node
+#SBATCH --tasks-per-node=2     # Request two tasks per node
+#SBATCH --cpus-per-task=1      # Request one cpu per task
+#SBATCH --time=00:20:00
+
+#SBATCH --account=XXX
+#SBATCH --partition=standard
+#SBATCH --qos=short
+
+module load cray-python
+
+# Run with two MPI tasks
+srun python ./exercise1.py
