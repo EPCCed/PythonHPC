@@ -9,8 +9,8 @@ def main(argv):
 
     # Simulation parameters
     seedval = 5743
-    ncell = 1000000
-    maxiter = 100000000//ncell
+    ncell = 10240000
+    maxiter = 1024000000//ncell
     printfreq = maxiter//10
 
     newroad = [0 for i in range(ncell+2)]
