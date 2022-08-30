@@ -30,27 +30,32 @@ def updateroad(newroad, oldroad):
 
     for i in range(1, n+1):
 
-#        if oldroad[i] == 1:
-#            if oldroad[i+1] == 1:
-#                newroad[i] = 1
-#            else:
-#                newroad[i] = 0
-#                nmove = nmove + 1
-#        else:
-#            if oldroad[i-1] == 1:
-#                newroad[i] = 1
-#            else:
-#                newroad[i] = 0
-
-        if oldroad[i] == 0:
-            newroad[i] = oldroad[i-1]
+        if oldroad[i] == 1:
+            if oldroad[i+1] == 1:
+                newroad[i] = 1
+            else:
+                newroad[i] = 0
+                nmove = nmove + 1
         else:
-            newroad[i] = oldroad[i+1]
+            if oldroad[i-1] == 1:
+                newroad[i] = 1
+            else:
+                newroad[i] = 0
 
-        if newroad[i] != oldroad[i]:
-            nmove = nmove + 1
-
-    nmove = nmove/2
+#
+#  The version below will be easier to express as array operations
+#   as it has fewer if statements.
+#
+#        if oldroad[i] == 0:
+#            newroad[i] = oldroad[i-1]
+#        else:
+#            newroad[i] = oldroad[i+1]
+#
+#        if newroad[i] != oldroad[i]:
+#            nmove = nmove + 1
+#
+#    nmove = nmove/2
+#
 
     return nmove
 

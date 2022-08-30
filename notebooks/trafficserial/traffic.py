@@ -13,8 +13,8 @@ def main(argv):
     maxiter = 100000000//ncell
     printfreq = maxiter//10
 
-    newroad = [0 for col in range(ncell+2)]
-    oldroad = [0 for col in range(ncell+2)]
+    newroad = [0 for i in range(ncell+2)]
+    oldroad = [0 for i in range(ncell+2)]
 
     density = 0.52
 
