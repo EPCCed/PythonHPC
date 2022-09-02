@@ -30,7 +30,7 @@ def main(argv):
 
     print(f"Actual Density of cars is {float(ncars)/float(ncell)}\n")
 
-    oldroad[1:ncell] = tmproad
+    oldroad[1:ncell+1] = tmproad
     
     tstart = gettime()
 
