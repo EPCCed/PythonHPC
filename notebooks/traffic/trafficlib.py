@@ -2,13 +2,15 @@ import numpy as np
 
 def initroad(road, density, seedval):
 
+#  Here we expect a road without halos    
+
     np.random.seed(seedval)
 
-    n = len(road)-2
+    n = len(road)
 
     ncar = 0
 
-    for i in range(1, n+1):
+    for i in range(0, n):
         
         rng = np.random.random()
 
@@ -44,7 +46,7 @@ def updateroad(newroad, oldroad):
 
 #
 #  The version below will be easier to express as array operations
-#   as it has fewer if statements.
+#  as it has fewer "if" statements.
 #
 #        if oldroad[i] == 0:
 #            newroad[i] = oldroad[i-1]

@@ -13,8 +13,9 @@ def main(argv):
     maxiter = 1024000000//ncell
     printfreq = maxiter//10
 
-    newroad = [0 for i in range(ncell+2)]
-    oldroad = [0 for i in range(ncell+2)]
+    tmproad = [0 for col in range(ncell)]
+    newroad = [0 for col in range(ncell+2)]
+    oldroad = [0 for col in range(ncell+2)]
 
     density = 0.52
 
@@ -25,10 +26,12 @@ def main(argv):
     # Initialise road accordingly using random number generator
     print(f"Initialising ...")
 
-    ncars = initroad(oldroad, density, seedval)
+    ncars = initroad(tmproad, density, seedval)
 
     print(f"Actual Density of cars is {float(ncars)/float(ncell)}\n")
 
+    oldroad[1:ncell] = tmproad
+    
     tstart = gettime()
 
     for iter in range(1, maxiter+1):
