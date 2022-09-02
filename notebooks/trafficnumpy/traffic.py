@@ -48,8 +48,8 @@ def main(argv):
     tstop = gettime()
 
     print(f"\nFinished\n")
-    print(f"Time taken was {tstop-tstart} seconds")
-    print(f"Update rate was {1.0e-6*ncell*maxiter/(tstop-tstart)} MCOPs\n")
+    print(f"Time taken was {tstop-tstart:.2f} seconds")
+    print(f"Update rate was {1.0e-6*ncell*maxiter/(tstop-tstart):.2f} MCOPs")
 
 if __name__ == "__main__":
     main(sys.argv[1:])

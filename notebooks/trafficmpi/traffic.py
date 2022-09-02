@@ -15,13 +15,20 @@ def main(argv):
     size = comm.Get_size()
     rank = comm.Get_rank()
 
-# Simulation parameters
+    # Simulation parameters
     seedval = 5743
     ncell = 10240000
     maxiter = 1024000000//ncell
     printfreq = maxiter//10
 
     nlocal = ncell//size
+
+    # Check consistency
+
+    if (nlocal*size != ncell):
+        if (rank == 0):
+            print(f"ERROR: ncell = {ncell} not a multiple of size = {size}")
+        exit()
 
     bigroad  = np.zeros(ncell,dtype=np.int32)
     newroad  = np.zeros(nlocal+2,dtype=np.int32)
@@ -100,8 +107,8 @@ def main(argv):
     if (rank == 0):
 
         print(f"\nFinished\n")
-        print(f"Time taken was {tstop-tstart} seconds")
-        print(f"Update rate was {1.0e-6*ncell*maxiter/(tstop-tstart)} MCOPs\n")
+        print(f"Time taken was {tstop-tstart:.2f} seconds")
+        print(f"Update rate was {1.0e-6*ncell*maxiter/(tstop-tstart):.2f} MCOPs")
 
 if __name__ == "__main__":
     main(sys.argv[1:])
