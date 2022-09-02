@@ -86,15 +86,38 @@ Python). We are only concerned with the Python examples.
 
 We should really be running all computational jobs on the compute
 nodes which we access by submitting the batch script `archer2.job` (in
-fact you cannot run paralle jobs on the login nodes - you have to use
+fact you cannot run parallel jobs on the login nodes - you have to use
 the compute nodes).
 
-* Submit the batch job: `sbatch archer2.job` which will run the numpy
+* Submit the batch job: `sbatch archer2.job` - this will run the numpy
   code on a single process.
 
 * Output will eventually appear in a file called something like
   `traffic-1234567.out` - you can monitor progress of your jobs using
-  `squeue $USER`.
+  `squeue $USER`
+
+* Is the performance on the compute nodes similar to the login nodes?
+
+We will now run the parallel version on ARCHER2. You will see that we
+have increased the number of iterations by a factor of 10 - without
+this the runtimes become so short that it is difficult to get accurate
+performance figures. As a rule of thumb, anything less than a second
+is probably too short.
+
+* Submit the batch job: `sbatch archer2.job` - this will run the parallel MPI code
+  code on all 128 processors of a single ARCHER2 node.
+
+* What is the performance? How much faster is it than the numpy code
+  on a single process? How much faster is it than the original code?
+
+* You can run on 256 or 512 processors by editing `archer2.job` and
+  increasing the value of `nodes` to 2 or 4. These jobs may take a
+  surprisingly long time to run - this is due to slow startup times
+  for parallel Python jobs and not slow performance. At these high
+  process counts you may want to increase the number of iterations by
+  another factor of 10.
+
+* Did we manage to break the 10,000 times faster barrier?
 
 ---
 
