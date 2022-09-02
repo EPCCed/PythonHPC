@@ -70,7 +70,19 @@ all the Jupyter notebooks for the exercises on your laptop.
 
 We are not using Jupyter notebooks on ARCHER2 -- follow instructions below.
 
- * First, log on to ARCHER2 using `ssh`. You will have an account in the project `ta083`.
+* Log on to ARCHER2 using `ssh` -- will have an account in the project `ta083`.
+* Change directory to `/work` using `cd /work/ta083/ta083/username/`.
+* Copy over the exercises material: `cp /work/ta083/ta083/shared/PythonHPCarcher2.zip .`
+* Unpack it: `unzip PythonHPCarcher2.zip`
+* Change directory: `cd PythonHPCarcher2/code/`.
+
+You will see a number of directories containing C, Fortran and Python
+examples in serial, MPI and also OpenMP (although not the latter for
+Python). We are only concerned with the Python examples.
+
+* Load the Python environment: `module load cray-python`
+* Go to the `P-SER-NP` directory for the numpy examples.
+* execute the 
 
 ---
 
