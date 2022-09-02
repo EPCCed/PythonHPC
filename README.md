@@ -61,9 +61,16 @@ for private study. </blockquote></p>
  * 11:40 - 12:00 : Basic MPI with mpi4py (lecture)
  * 12:00 - 12:30 : Parallel Traffic Model (hands-on)
 
-<h4>Traffic Model</h4>
+<h3>Course material</h3>
 
-Based on this existing lecture:
+Download and unzip the [workshop zip file](URL here!) which includes
+all the Jupyter notebooks for the exercises on your laptop.
+
+<h3>ARCHER2 exercises</h3>
+
+We are not using Jupyter notebooks on ARCHER2 -- follow instructions below.
+
+ * First, log on to ARCHER2 using `ssh`. You will have an account in the project `ta083`.
 
 ---
 
