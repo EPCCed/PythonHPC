@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Slurm job options (name, compute nodes, job time)
+#SBATCH --job-name=traffic
+#SBATCH --time=00:05:00
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --nodes=1
+#SBATCH --tasks-per-node=1
+#SBATCH --cpus-per-task=128
+#SBATCH --partition=standard
+#SBATCH --qos=short
+#SBATCH --reservation=shortqos
+
+export OMP_NUM_THREADS=128
+export OMP_PLACES=cores
+
+ulimit -s unlimited
+
+# Launch the parallel job
+
+srun --unbuffered --distribution=block:block --hint=nomultithread ./traffic
