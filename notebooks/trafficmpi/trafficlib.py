@@ -3,15 +3,17 @@ import numpy as np
 
 def initroad(road, density, seedval):
 
-    np.random.seed(seedval)
+    # Here we expect a road without halos
 
-    n = len(road)-2
+    n = len(road)
+
+    np.random.seed(seedval)
 
     rng = np.random.random(n)
 
-    road[1:n+1] = np.where(rng[:] < density, 1, 0)
+    road[0:n] = np.where(rng[:] < density, 1, 0)
 
-    ncar = np.sum(road[1:n+1])
+    ncar = np.sum(road)
     
     return ncar
 

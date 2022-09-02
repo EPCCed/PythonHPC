@@ -26,7 +26,7 @@ def main(argv):
     # Initialise road accordingly using random number generator
     print(f"Initialising ...")
 
-    ncars = initroad(oldroad, density, seedval)
+    ncars = initroad(oldroad[1:ncell+1], density, seedval)
 
     print(f"Actual Density of cars is {format(float(ncars)/float(ncell))}\n")
 
