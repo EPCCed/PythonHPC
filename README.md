@@ -68,13 +68,13 @@ all the Jupyter notebooks for the exercises on your laptop.
 
 <h3>ARCHER2 exercises</h3>
 
-We are not using Jupyter notebooks on ARCHER2 -- follow instructions below.
+We are not using Jupyter notebooks on ARCHER2 - follow the instructions below.
 
-* Log on to ARCHER2 using `ssh` -- will have an account in the project `ta083`.
-* Change directory to `/work` using `cd /work/ta083/ta083/username/`.
+* Log on to ARCHER2 using `ssh` -- will have an account in the project `ta083`
+* Change directory to `/work` using `cd /work/ta083/ta083/username/`
 * Copy over the exercises material: `cp /work/ta083/ta083/shared/PythonHPCarcher2.zip .`
 * Unpack it: `unzip PythonHPCarcher2.zip`
-* Change directory: `cd PythonHPCarcher2/code/`.
+* Change directory: `cd PythonHPCarcher2/code/`
 
 You will see a number of directories containing C, Fortran and Python
 examples in serial, MPI and also OpenMP (although not the latter for
@@ -82,7 +82,19 @@ Python). We are only concerned with the Python examples.
 
 * Load the Python environment: `module load cray-python`
 * Go to the `P-SER-NP` directory for the numpy examples.
-* execute the 
+* Execute the traffic mode: `python traffic.py` - how much faster is it than the naive version?
+
+We should really be running all computational jobs on the compute
+nodes which we access by submitting the batch script `archer2.job` (in
+fact you cannot run paralle jobs on the login nodes - you have to use
+the compute nodes).
+
+* Submit the batch job: `sbatch archer2.job` which will run the numpy
+  code on a single process.
+
+* Output will eventually appear in a file called something like
+  `traffic-1234567.out` - you can monitor progress of your jobs using
+  `squeue $USER`.
 
 ---
 
