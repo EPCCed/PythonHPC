@@ -18,7 +18,7 @@ def main(argv):
     # Simulation parameters
     seedval = 5743
     ncell = 10240000
-    maxiter = 1024000000//ncell
+    maxiter = 10240000000//ncell
     printfreq = maxiter//10
 
     nlocal = ncell//size
