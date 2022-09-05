@@ -79,8 +79,8 @@ We are not using Jupyter notebooks on ARCHER2 - follow the instructions below.
 * Change directory: `cd PythonHPC/code/`
 
 You will see a number of directories containing C, Fortran and Python
-examples in serial, MPI and also OpenMP (although not the latter for
-Python). We are only concerned with the Python examples.
+examples in serial and MPI (and OpenMP except for Python). We are only
+concerned with the Python examples today.
 
 * Load the Python environment: `module load cray-python`
 * Go to the `P-SER-NP` directory for the numpy version.
@@ -107,8 +107,9 @@ this the runtimes become so short that it is difficult to get accurate
 performance figures. As a rule of thumb, anything less than a second
 is probably too short.
 
-* Submit the batch job: `sbatch archer2.job` - this will run the parallel MPI code
-  code on all 128 processors of a single ARCHER2 node.
+* Submit the batch job: `sbatch archer2.job` - this will run the
+  parallel MPI code code on all 128 processors of a single ARCHER2
+  node.
 
 * What is the performance? How much faster is it than the numpy code
   on a single process? How much faster is it than the original code?
