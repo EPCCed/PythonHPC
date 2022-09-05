@@ -81,8 +81,9 @@ examples in serial, MPI and also OpenMP (although not the latter for
 Python). We are only concerned with the Python examples.
 
 * Load the Python environment: `module load cray-python`
-* Go to the `P-SER-NP` directory for the numpy examples.
-* Execute the traffic mode: `python traffic.py` - how much faster is it than the naive version?
+* Go to the `P-SER-NP` directory for the numpy version.
+* Execute the traffic model: `python traffic.py` - how does the speed
+  compare to your laptop?
 
 We should really be running all computational jobs on the compute
 nodes which we access by submitting the batch script `archer2.job` (in
