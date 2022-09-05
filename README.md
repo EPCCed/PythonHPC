@@ -63,8 +63,9 @@ for private study. </blockquote></p>
 
 <h3>Course material</h3>
 
-Download and unzip the [workshop zip file](URL here!) which includes
-all the Jupyter notebooks for the exercises on your laptop.
+Download and unzip [PythonHPC.zip](PythonHPC.zip) which includes
+all the Jupyter notebooks for the exercises on your laptop - see the
+directory `notebooks`.
 
 <h3>ARCHER2 exercises</h3>
 
