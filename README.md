@@ -72,7 +72,7 @@ laptop - see the directory `notebooks`.
 
 We are not using Jupyter notebooks on ARCHER2 - follow the instructions below.
 
-* Log on to ARCHER2 using `ssh` -- will have an account in the project `ta083`
+* Log on to ARCHER2 using `ssh` - will have an account in the project `ta083`
 * Change directory to `/work` using `cd /work/ta083/ta083/username/`
 * Copy over the exercises material: `cp /work/ta083/ta083/shared/PythonHPCarcher2.zip .`
 * Unpack it: `unzip PythonHPCarcher2.zip`
