@@ -11,8 +11,8 @@ def main(comm):
     if p1 >= comm.size: p1 = 0
     if m1 < 0: m1 = comm.size - 1
 
-    smsg = numpy.array([comm.rank], numpy.int)
-    rmsg = numpy.zeros(2, numpy.int)
+    smsg = numpy.array([comm.rank], numpy.int32)
+    rmsg = numpy.zeros(2, numpy.int32)
 
     reqs1 = comm.Issend(smsg, p1)
     reqs2 = comm.Issend(smsg, m1)
