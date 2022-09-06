@@ -74,7 +74,7 @@ We are not using Jupyter notebooks on ARCHER2 - follow the instructions below.
 
 * Log on to ARCHER2 using `ssh` - you will have an account in the project `ta083`
 * Change directory to `/work` using `cd /work/ta083/ta083/$USER/`
-* Copy over the exercises material: `cp /work/ta083/ta083/shared/PythonHPC.zip .`
+* Copy over the exercises material: `cp /work/ta083/shared/PythonHPC.zip .`
 * Unpack it: `unzip PythonHPC.zip`
 * Change directory: `cd PythonHPC/code/`
 
