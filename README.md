@@ -97,7 +97,7 @@ the compute nodes).
 
 * Output will eventually appear in a file called something like
   `traffic-1234567.out` - you can monitor progress of your jobs using
-  `squeue $USER`
+  `squeue -u $USER`
 
 * Is the performance on the compute nodes similar to the login nodes?
 
