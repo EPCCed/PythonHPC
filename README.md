@@ -64,7 +64,7 @@ for private study. </blockquote></p>
 <h3>Course material</h3>
 
 Download and unzip
-[PythonHPC.zip](https://github.com/EPCCed/PythonHPC/raw/main/PythonHPC.zip)
+[PythonHPC.zip](https://github.com/JimCircadian/PythonHPC/archive/refs/heads/main.zip)
 which includes all the Jupyter notebooks for the exercises on your
 laptop - see the directory `notebooks`.
 
