@@ -107,6 +107,8 @@ this the runtimes become so short that it is difficult to get accurate
 performance figures. As a rule of thumb, anything less than a second
 is probably too short.
 
+* First change directory to `P-MPI`
+
 * Submit the batch job: `sbatch archer2.job` - this will run the
   parallel MPI code code on all 128 processors of a single ARCHER2
   node.
