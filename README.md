@@ -50,8 +50,6 @@ Follow the installation instructions at
 &copy; EPCC, The University of Edinburgh, and is only made available
 for private study. </blockquote></p>
 
-Lecture material available in the [pdf](pdf) directory.
-
  * 09:00 - 09:10 : Introduction
  * 09:10 - 09:30 : Traffic Model (lecture)
  * 09:30 - 09:45 : Traffic Model (hands-on)
@@ -68,7 +66,7 @@ Lecture material available in the [pdf](pdf) directory.
 Download and unzip
 [PythonHPC.zip](https://github.com/EPCCed/PythonHPC/raw/main/PythonHPC.zip)
 which includes all the Jupyter notebooks for the exercises on your
-laptop - see the directory `notebooks`.
+laptop - see the directory `notebooks`. Lecture material is available in the [pdf](pdf) directory.
 
 <h3>ARCHER2 exercises</h3>
 
