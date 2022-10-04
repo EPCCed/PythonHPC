@@ -66,7 +66,7 @@ for private study. </blockquote></p>
 Download and unzip
 [PythonHPC.zip](https://github.com/EPCCed/PythonHPC/raw/main/PythonHPC.zip)
 which includes all the Jupyter notebooks for the exercises on your
-laptop - see the directory `notebooks`.
+laptop - see the directory `notebooks`. Lecture material is available in the [pdf](pdf) directory.
 
 <h3>ARCHER2 exercises</h3>
 
