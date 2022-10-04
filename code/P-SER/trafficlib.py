@@ -52,12 +52,9 @@ def updateroad(newroad, oldroad):
 #            newroad[i] = oldroad[i-1]
 #        else:
 #            newroad[i] = oldroad[i+1]
-#
-#        if newroad[i] != oldroad[i]:
+#            
+#        if oldroad[i] - newroad[i] == 1:
 #            nmove = nmove + 1
-#
-#    nmove = nmove/2
-#
 
     return nmove
 

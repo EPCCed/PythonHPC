@@ -99,11 +99,14 @@ integer function updateroad(newroad, oldroad, n)
   !
   !  end where
   !
-  !  nmove = count(newroad(1:n) /= oldroad(1:n)) / 2
+  !  nmove = count(oldroad(1:n) - newroad(1:n) == 1)
   !
 
 end function updateroad
 
+! The subroutines below are not needed in the MPI parallel version,
+! but are retained here as we want to use exactly the same source file
+! for these library routines between serial and parallel codes.
 
 subroutine updatebcs(road, n)
 
