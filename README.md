@@ -2,7 +2,12 @@
 align="left"> <img src="./images/epcc_logo.jpg" align="right"
 width="133" height="100">
 
+Development of this course was supported by funding from the EuroCC
+project <img src="./images/euro-cc.job">
+
+
 <br /><br /><br /><br /><br />
+
 
 # Make your Python code 10,000 times faster with parallel numpy!
 
