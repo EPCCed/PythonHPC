@@ -2,8 +2,8 @@
 align="left"> <img src="./images/epcc_logo.jpg" align="right"
 width="133" height="100">
 
-Development of this course was supported by funding from the EuroCC
-project <img src="./images/euro-cc.jpg" width="100">
+Development of this course was supported by the EuroCC
+project <img src="./images/euro-cc.jpg" width="75">
 
 
 <br /><br /><br /><br /><br />
