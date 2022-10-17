@@ -1,10 +1,6 @@
 <img src="./images/Archer2_logo.png" width="355" height="100"
 align="left"> <img src="./images/epcc_logo.jpg" align="right"
-width="133" height="100">
-
-Development of this course was supported by the EuroCC
-project <img src="./images/euro-cc.jpg" width="75">
-
+width="133" height="100"> <img src="./images/euro-cc.jpg" width="75">
 
 <br /><br /><br /><br /><br />
 
